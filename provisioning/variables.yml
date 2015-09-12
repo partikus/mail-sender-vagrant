@@ -1,7 +1,7 @@
 ---
 # Project
 project_root: "/var/www/{{ parameters.project_name }}"
-project_web_root: "{{ project_root }}"
+project_web_root: "{{ project_root }}/web/"
 project_databases:
   - "{{ parameters.project_name }}"
   - "{{ parameters.project_name }}-dev"

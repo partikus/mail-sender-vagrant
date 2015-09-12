@@ -15,3 +15,6 @@
     - composer
     - mailsender
     - xdebug
+    - xvfb
+    - selenium
+

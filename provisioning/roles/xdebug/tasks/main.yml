@@ -7,6 +7,7 @@
 
 - name: xDebug | install xdebug from pecl
   shell: pecl install xdebug
+  ignore_errors: yes
 
 - name: xDebug | Adding extension into php.ini files
   lineinfile:

@@ -18,4 +18,5 @@
     collation: utf8_general_ci
   with_items: project_databases
 
-
+- name: Adding project host into /etc/hosts
+  lineinfile: dest=/etc/hosts line="127.0.0.1 {{ parameters.project_name }}.dev"
