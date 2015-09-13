@@ -3,7 +3,7 @@ app_config = YAML::load_file("./.project_name.yml")['parameters'];
 
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
-  config.vm.network :private_network, ip: "10.0.0.208"
+  config.vm.network :private_network, ip: "10.0.0.200"
   config.vm.network "public_network"
   config.ssh.forward_agent = true
 
