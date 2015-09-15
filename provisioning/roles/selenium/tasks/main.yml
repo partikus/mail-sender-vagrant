@@ -1,3 +1,6 @@
+- name: Install Java OpenJDK
+  apt: name="openjdk-7-jre"
+    
 - name: Download selenium
   connection: local
   sudo: False
